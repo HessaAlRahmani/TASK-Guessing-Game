@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-        <h1>Guess The Number</h1>
+        <h1>Guess The Mystery Number</h1>
         <input
           type="number"
           placeholder="number between 0 - 100"
