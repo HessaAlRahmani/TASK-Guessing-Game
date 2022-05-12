@@ -12,7 +12,8 @@ function App() {
     let btn = document.getElementById("btn");
 
     console.log({ randNum });
-    if (attempt == 0) {
+    console.log({ inputNum });
+    if (attempt == 0 && inputNum != randNum) {
       window.alert("No more attempts allowed \n GAME OVER");
       location.reload();
     } else if (inputNum > randNum) {
